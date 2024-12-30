@@ -56,7 +56,7 @@ class _OrderTrackingPageState extends State<OrderTrackingPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Order i $orderStatus',
+              'Order is $orderStatus',
               style: TextStyle(
                 fontSize: screenWidth * 0.06,
                 fontWeight: FontWeight.bold,
